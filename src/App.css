@@ -1,0 +1,25 @@
+html,
+body {
+  /* image for background */
+  background-color: black;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* font parameters */
+  font-family: monospace;
+  font-size: 1em;
+  height: 100%;
+  margin: 0;
+  /* added padding to prevent navbar overlap. (100 based on browser inpector of size) */
+  /* padding-top: 75px; */
+}
+
+.navbar {
+  /* pulls everything down to push up against bottom border */
+  padding-bottom: 0;
+  padding-left: 0;
+}
+
+.nav-link {
+  color: black !important;
+}

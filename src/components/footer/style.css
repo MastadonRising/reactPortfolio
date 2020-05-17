@@ -1,0 +1,5 @@
+.navbar {
+  /* pulls everything down to push up against bottom border */
+  padding-bottom: 0;
+  padding-left: 0;
+}

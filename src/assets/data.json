@@ -1,0 +1,56 @@
+[
+  {
+    "id": 1,
+    "image": "img5",
+    "title": "Trivial Calendar",
+    "tech": "JS CSS Rest API's",
+    "desc": "Fun Calendar web app with date based trivia.",
+    "repo": "https://github.com/MastadonRising/Trivial-Calendar",
+    "deployed": "https://mastadonrising.github.io/Trivial-Calendar/"
+  },
+  {
+    "id": 2,
+    "image": "img2",
+    "title": "BrGrLgR",
+    "tech": "JS SQL HandleBars",
+    "desc": "Burger logging app you Devour the burger moves.",
+    "repo": "https://github.com/MastadonRising/BrGrLgR",
+    "deployed": "https://young-mesa-71396.herokuapp.com/"
+  },
+  {
+    "id": 3,
+    "image": "img6",
+    "title": "WeatherDashBoard",
+    "tech": "JS CSS Rest API's HTML",
+    "desc": " 5 day weather forcast. Stores recently searched cities.",
+    "repo": "https://github.com/MastadonRising/WeatherDashBoard",
+    "deployed": "https://mastadonrising.github.io/WeatherDashBoard/"
+  },
+  {
+    "id": 4,
+    "image": "img4",
+    "title": "DayPlanner",
+    "tech": "JS CSS HTML",
+    "desc": " Functional Day Planner for those 9-5 hours where it really counts.",
+    "repo": "https://github.com/MastadonRising/DayPlanner",
+    "deployed": "https://mastadonrising.github.io/DayPlanner/"
+  },
+  {
+    "id": 5,
+    "image": "img1",
+    "title": "bigBrotherSql",
+    "tech": "JS SQL",
+    "desc": " CLI for managing employees Roles and Departments.",
+    "repo": "https://github.com/MastadonRising/bigBrotherSql",
+    "deployed": ""
+  },
+  {
+    "id": 6,
+    "image": "img3",
+    "title": "Aptt On Ice",
+    "tech": "JS CSS SQL",
+    "desc": " Scheduling application for Ice Skating lessons. ",
+    "repo": "https://github.com/MastadonRising/Aptt_on_Ice",
+    "deployed": "https://intense-falls-96725.herokuapp.com/"
+  }
+]
