@@ -1,6 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import { MDBSideNav } from "mdbreact";
+import "./style.css";
 
 const SideNavList = () => {
   return (
@@ -10,18 +11,30 @@ const SideNavList = () => {
           <li>
             <Link
               color="white"
-              className="fa fa-home fa-2x  "
+              className="fas fa-home fa-2x side "
               to="/"
               role="button"
+              alt="Home"
             ></Link>
           </li>
-          <li></li>
-          <Link
-            color="white"
-            className="fas fa-file fa-2x "
-            to="/Resume"
-            role="button"
-          ></Link>
+          <li>
+            <Link
+              color="white"
+              className="far fa-file fa-2x side "
+              to="/Resume"
+              role="button"
+              alt="resume"
+            ></Link>
+          </li>
+          <li>
+            <Link
+              color="white"
+              className="fas fa-project-diagram fa-2x side"
+              to="/portfolio"
+              role="button"
+              alt="projects"
+            ></Link>
+          </li>
         </ul>
       </li>
     </MDBSideNav>
