@@ -15,7 +15,7 @@ const Carousel = () => {
   return (
     <MDBContainer>
       <MDBRow>
-        <MDBCol md="3"></MDBCol>
+        <MDBCol md="1"></MDBCol>
         <MDBCol md="8">
           <MDBCarousel
             activeItem={1}

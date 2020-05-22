@@ -8,9 +8,6 @@ const Footer = () => {
       <MDBContainer fluid className="text-center text-md-left">
         <MDBRow>
           <MDBCol md="12" className="text-center ">
-            <Link className="home-ic " to="/" role="button">
-              <i class="fa fa-home fa-2x "></i>
-            </Link>
             <a
               className="li-ic mr-3"
               role="button"

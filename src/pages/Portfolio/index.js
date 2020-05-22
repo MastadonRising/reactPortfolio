@@ -1,16 +1,26 @@
 import React from "react";
-
+import { MDBContainer, MDBRow, MDBCol } from "mdbreact";
 import Footer from "../../components/footer";
 import Carousel from "../../components/carousel";
+import SideNavPage from "../../components/sideNav";
+
 const Portfolio = () => {
   return (
-    <div>
-      <div className="wrapper">
-        <Carousel />
-      </div>
-      <div className="push"></div>
-      <Footer />
-    </div>
+    <MDBContainer>
+      <MDBRow>
+        <MDBCol md="2">
+          <SideNavPage />
+        </MDBCol>
+        <MDBCol md="10">
+          <Carousel />
+        </MDBCol>
+      </MDBRow>
+      <MDBRow>
+        <MDBCol>
+          <Footer />
+        </MDBCol>
+      </MDBRow>
+    </MDBContainer>
   );
 };
 
